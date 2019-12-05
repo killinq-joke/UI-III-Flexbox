@@ -109,6 +109,11 @@ header div h1 {
 	font-size: 100px;
 	text-align: center;
 }
+
+h1 {
+	font-size: 30px;
+}
+
  .button {
 	/* display: inline-block; */
 	padding: 5px 15px;
@@ -121,6 +126,12 @@ header .header-img {
 	height: 380px;
 	margin: 0 0 0 0;
 	display: inline-block;
+}
+
+.sec-header {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: flex-start;
 }
 
 .top-section {
