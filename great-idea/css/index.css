@@ -95,10 +95,10 @@ header {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
-	padding: 25px 0 100px 0;
+	padding: 25px 0 7% 0;
 	border-bottom: 1px solid black;
 }
-header div {
+header .div-index {
 	/* margin: 0 150px 0 0px;
 	height: 200px;
 	width: 360px;
@@ -109,9 +109,9 @@ header div h1 {
 	font-size: 100px;
 	text-align: center;
 }
-header div a {
+ .button {
 	/* display: inline-block; */
-	padding: 10px 25px;
+	padding: 5px 15px;
 	border: solid black 1px;
 	text-decoration: none;
 	color: black;
@@ -127,6 +127,38 @@ header .header-img {
 	display: flex;
 	padding: 20px 0 ;
 	font-size: 20px;
+}
+
+.top-sec-services{
+	border-bottom: 1px solid black;
+	display:flex;
+	 flex-flow: row wrap; 
+	/* justify-content: space-between;
+	align-items: flex-start;  */
+}
+
+.top-sec-div {
+	margin: 10px 15px;
+	border: 1px solid black;
+	background: ghostwhite;
+	padding: 20px;	
+	width:calc(50% - 30px);
+	display:flex;
+	flex-flow: row wrap;
+	align-items: flex-start;
+}
+
+a {
+	background: white;
+}
+
+.sec2 {
+	padding:20px;
+	margin: 30px;
+}
+
+.top-sec-div p {
+	margin: 10px;
 }
 
 /* .top-section h2 {
@@ -152,6 +184,10 @@ header .header-img {
 	display: flex;
 	padding: 20px 3px;
 	border-bottom: 1px solid black ;
+}
+
+.bottom-sec-services {
+	display:flex;
 }
 
 /* .bottom-section {
