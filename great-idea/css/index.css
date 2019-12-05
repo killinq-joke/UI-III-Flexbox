@@ -120,6 +120,7 @@ h1 {
 	border: solid black 1px;
 	text-decoration: none;
 	color: black;
+	background-color: white;
 }
 header .header-img {
 	width: 380px;
@@ -159,10 +160,6 @@ header .header-img {
 	align-items: flex-start;
 }
 
-a {
-	background: white;
-}
-
 .sec2 {
 	padding:20px;
 	margin: 30px;
@@ -199,6 +196,10 @@ a {
 
 .bottom-sec-services {
 	display:flex;
+}
+
+.span-flex li,.span-flex p {
+	padding:10px;
 }
 
 /* .bottom-section {
