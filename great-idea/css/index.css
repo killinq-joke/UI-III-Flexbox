@@ -78,8 +78,12 @@ h1, h2, h3, h4, h5 {
  nav a {
 	margin: 0px 40px 0 0;
 	text-decoration: none;
-	color: rgba(15, 15, 15, 0.2);
+	color:gray;
 	/* align-self: center; */
+}
+
+a:hover {
+	color: red;
 }
 
 /* nav .logo {
@@ -118,7 +122,14 @@ header .header-img {
 	margin: 0 0 0 0;
 	display: inline-block;
 }
-.top-section h2 {
+
+.top-section {
+	display: flex;
+	padding: 20px 0 ;
+	font-size: 20px;
+}
+
+/* .top-section h2 {
 	font-size: 20px;
 }
 .top-section p {
@@ -126,17 +137,25 @@ header .header-img {
 	text-align: left;
 }
 .top-section .top-content {
-	display: inline-block;
+	display: flex;
+	align-content: flex-end;
 	width: 49%;
 	margin: 50px 0 50px 0;
 	padding: 5px;
-}
+} */
 .middle-img {
 	display: inline-block;
 	width: 100%;	
 }
+
 .bottom-section {
-	border-bottom: 1px solid black;
+	display: flex;
+	padding: 20px 3px;
+	border-bottom: 1px solid black ;
+}
+
+/* .bottom-section {
+	border-bottom: ;
 }
 .bottom-section .bottom-content {
 	display: inline-block;
@@ -149,7 +168,7 @@ header .header-img {
 }
 .bottom-section p {
 	font-size: 18px;
-}
+} */
 .contact {
 	text-align: left;
 	padding: 0 0 0 10%;
