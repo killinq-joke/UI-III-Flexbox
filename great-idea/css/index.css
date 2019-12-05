@@ -88,14 +88,17 @@ h1, h2, h3, h4, h5 {
 } */
 
 header {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
 	padding: 25px 0 100px 0;
 	border-bottom: 1px solid black;
 }
 header div {
-	margin: 0 150px 0 0px;
+	/* margin: 0 150px 0 0px;
 	height: 200px;
 	width: 360px;
-	display: inline-block;
+	display: inline-block; */
 	text-align: center;
 }
 header div h1 {
@@ -103,7 +106,7 @@ header div h1 {
 	text-align: center;
 }
 header div a {
-	display: inline-block;
+	/* display: inline-block; */
 	padding: 10px 25px;
 	border: solid black 1px;
 	text-decoration: none;
